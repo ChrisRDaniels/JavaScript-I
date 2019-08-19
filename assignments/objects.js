@@ -69,7 +69,7 @@ console.log(intern1.name);
 // Kennan's ID
 console.log(intern2.id);
 
-// Keven's email
+// Keven's email 
 console.log(intern3.email);
 
 // Gannie's name
