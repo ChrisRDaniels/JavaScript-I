@@ -96,15 +96,15 @@ console.log(intern5.multiplyNums(3,4));
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
 const parent = {
-  name: Susan, 
-  age: 70
-  speak: `Hi my name is ${parent.name}!`,
+  name: "Susan", 
+  age: 70,
+  speak: `Hi my name is ${this.name}!`,
     child: {
-    name: George,
+    name: "George",
     age: 50,
     speak: `Hi my name is ${this.name}!`,
       grandchild: {
-      name: Sam,
+      name: "Sam",
       age: 30,
       speak: `Hi my name is ${this.name}!`
 }
@@ -115,10 +115,10 @@ const parent = {
 console.log(parent.name);
 
 // Log the child's age
-console.log (parent(child.name));
+console.log (child.age);
 
 // Log the name and age of the grandchild
-console.log(parent(grandchild.name));
+console.log(grandchild.name);
 
 // Have the parent speak
 console.log(parent.speak);
