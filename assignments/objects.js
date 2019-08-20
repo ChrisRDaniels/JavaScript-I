@@ -21,15 +21,15 @@ const example = {
 const intern1 = {
   id: 0,
   name: "Mitzi",
-  email: "example1@you.edu",
+  email: "mmelloy0@psu.edu",
   gender: "F",
 }
 
 const intern2 = {
   id: 0,
   name: "Kennan",
-  email: "example2@you.edu",
-  gender: "F",
+  email: "kdiben1@tinypic.com",
+  gender: "M",
   speak: function() {
     return "Hello, my name is Kennan!"
   }
@@ -38,21 +38,21 @@ const intern2 = {
 const intern3 = {
   id: 0,
   name: "Keven",
-  email: "example3@you.edu",
-  gender: "F",
+  email: "kmummery2@wikimedia.org",
+  gender: "M",
 }
 
 const intern4 = {
   id: 0,
   name: "Gannie",
-  email: "example4@you.edu",
-  gender: "F",
+  email: "gmartinson3@illinois.edu",
+  gender: "M",
 }
 
 const intern5 = {
   id: 0,
   name: "Antonietta",
-  email: "example5@you.edu",
+  email: "adaine5@samsung.com",
   gender: "F",
   multiplyNums: (num1, num2) => {
     return num1 * num2;
